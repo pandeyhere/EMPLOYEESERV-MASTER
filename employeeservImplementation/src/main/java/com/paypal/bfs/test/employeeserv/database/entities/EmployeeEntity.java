@@ -68,8 +68,6 @@ public class EmployeeEntity {
 
         EmployeeEntity that = (EmployeeEntity) o;
 
-        if (id != null ? !id.equals(that.id) : that.id != null)
-            return false;
         if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null)
             return false;
         if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null)
